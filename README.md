@@ -9,3 +9,4 @@ ln -s /path/to/cloned/repo/tmux.conf /home/user/.tmux.conf
 
   - vimrc - Powerline http://powerline.readthedocs.io/en/master/installation/linux.html
   - tmux.conf - none that i can see (apart from tmux)
+  - brew-packages - https://brew.sh - install with # e=cat ./brew-packages; brew install $e; (NEEDS TESTING)
