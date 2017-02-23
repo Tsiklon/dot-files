@@ -2,8 +2,8 @@
 
 Basic dot files for getting set up properly.
 
-ln -s /path/to/cloned/repo/vimrc /home/user/.vimrc
-ln -s /path/to/cloned/repo/tmux.conf /home/user/.tmux.conf
+- ln -s /path/to/cloned/repo/vimrc /home/user/.vimrc
+- ln -s /path/to/cloned/repo/tmux.conf /home/user/.tmux.conf
 
 <b>Requirements</b> 
 
