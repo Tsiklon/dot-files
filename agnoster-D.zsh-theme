@@ -80,7 +80,7 @@ prompt_end() {
 # Context: username (who am I)
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)Damien@%m"
+    prompt_segment black default "%(!.%{%F{yellow}%}.)Damien @ %m"
   fi
 }
 
