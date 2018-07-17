@@ -1,0 +1,9 @@
+Host *.damiennugent.com
+	IdentityFile /Users/damiennugent/.ssh/damiennugent.com-key
+	IdentityFile /Users/damiennugent/.ssh/google_compute_engine
+
+Host * 
+	UseKeychain yes
+	AddKeysToAgent yes
+	ControlMaster auto
+	ControlPath /tmp/ssh-%r@%h:%p.socket
