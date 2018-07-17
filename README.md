@@ -7,7 +7,7 @@ Basic dot files for getting set up properly.
   - ln -s /path/to/cloned/repo/agnoster-D.zsh-theme /home/user/.oh-my-zsh/themes/agnoster-D.zsh-theme
   - ln -s /path/to/cloned/repo/ssh_config /home/user/.ssh/config
 
-*Requirements*
+__Requirements__
 
   - vimrc 
   - tmux.conf - Powerline http://powerline.readthedocs.io/en/master/installation/linux.html
